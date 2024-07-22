@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulario</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <form action="">
+        <p>Insira um numero maior no primeiro campo e um menor no segundo</p>
+        <div>
+            <label for="campo-A">Campo A:</label>
+            <input type="number" id="campo-A" >
+        </div>
+        <div>
+            <label for="campo-B">Campo B</label>
+            <input type="number" id="campo-B" >
+        </div>
+        
+        <button id="btn-submit" onclick="validar()">Validar</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
